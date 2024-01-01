@@ -13,19 +13,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-
-    h1 {
-        color: blanchedalmond; 
-        display: inline;
-    }
-    h2 {
-        color: blanchedalmond; 
-        display: inline;
-    }
-
-    h3 {
-        color: blanchedalmond;
-        display: inline;
-    }
-
 }
+.navbar ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;  
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+        text-align: center;
+        text-decoration: none;
+        color: blanchedalmond;
+        width: 100px;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
