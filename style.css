@@ -1,3 +1,31 @@
+body, html {
+    height: 100%;
+}
+
+header {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 body {
-    background: blue;
-  }
+    background-image: url(chip.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+    h1 {
+        color: blanchedalmond; 
+        display: inline;
+    }
+    h2 {
+        color: blanchedalmond; 
+        display: inline;
+    }
+
+    h3 {
+        color: blanchedalmond;
+        display: inline;
+    }
+
+}
