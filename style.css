@@ -1,7 +1,7 @@
-body, html {
+html{
     height: 100%;
+    width: 100%;
 }
-
 header {
     color: blanchedalmond;
     text-align: center;
@@ -12,23 +12,25 @@ body {
     background-image: url(chip.avif);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: fit-content;
+    
 }
-.navbar ul{
-    padding: 0;
+.navbar ul{ 
     list-style: none;
-    margin: 0;  
+    padding-left: 43%; 
 }
 .navbar li{
-    display: inline-block;
+    display: inline-block;   
 }
 .navbar a{
-        text-align: center;
         text-decoration: none;
         color: blanchedalmond;
         width: 100px;
         display: block;
         font-size: 20px;
         font-weight: bold;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+.navbar li a:hover{
+    color:chartreuse;
+}
